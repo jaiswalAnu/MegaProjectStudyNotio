@@ -21,3 +21,20 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+# Environment variables
+.env
+
+# API keys and sensitive config
+config/keys.json
+config/secrets/
+
+# Ignore database files
+*.db
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore any secret documents
+secret_docs/
+passwords.txt

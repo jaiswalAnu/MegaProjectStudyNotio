@@ -1,0 +1,18 @@
+# Ignore sensitive files
+config/secrets.json
+.env
+passwords.txt
+
+# Ignore node_modules (for a Node.js project)
+node_modules/
+
+# Ignore build folders
+/dist/
+/build/
+
+# Ignore compiled files
+*.class
+*.exe
+
+# Ignore any file with sensitive info
+secret_*.txt
